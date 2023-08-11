@@ -1,0 +1,190 @@
+body {
+  background-color: #f5ebe0;
+  font-family: "Lexend Exa", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: black;
+}
+
+h1 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 50px; /* Cambia el tamaño del texto del h1  */
+  font-weight: bolder;
+  margin-left: 25px;
+  margin-top: 20px; /* Ajusta el valor para dejar espacio para la barra de navegación */
+  margin-bottom: 15px;
+}
+
+.Typewriter__cursor {
+  color: #606c38 !important;
+}
+
+#sobre-ellos h2 {
+  margin-top: 20px;
+  color: #982910;
+  font-weight: 550;
+  font-size: 30px;
+}
+
+#sobre-ellos h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+#caracteristicas h2 {
+  font-family: "Lexend Exa", sans-serif;
+  color: #982910;
+  font-weight: 550;
+  font-size: 30px;
+}
+#caracteristicas ul {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+#datos h2 {
+  font-family: "Lexend Exa", sans-serif;
+  color: #982910;
+  font-weight: 550;
+  font-size: 30px;
+}
+
+#datos ul {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+#datos h4 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 20px;
+}
+#datos p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+.content {
+  display: none;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.video-container {
+  max-width: 65%;
+  overflow: hidden;
+}
+
+.video-container .embed-responsive {
+  position: relative;
+  padding-bottom: 50%; /* Proporción 4:3 */
+  height: 0;
+}
+
+.video-container .embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo para hacer el iframe responsive */
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 36%; /* Proporción 16:9 */
+  height: 0;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#protegelos h2 {
+  font-family: "Lexend Exa", sans-serif;
+  color: #982910;
+  font-weight: 550;
+  font-size: 30px;
+}
+
+#protegelos h3 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 25px;
+}
+
+#protegelos p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+#galeria h2 {
+  font-family: "Lexend Exa", sans-serif;
+  color: #982910;
+  font-weight: 550;
+  font-size: 30px;
+}
+button {
+  background-color: #ffff;
+  color: #283618;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border-radius: 2%;
+  border: #606c38;
+}
+
+#galeria {
+  padding: 20px;
+
+}
+
+/* Estilos para el botón */
+#toggleButton {
+  background-color: #8f391e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilos para las imágenes */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  font-weight: 590;
+  color: #283618;
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  /* Pantallas de escritorio */
+  .col-lg-3 {
+    flex: 0 0 50%; /* 2 imágenes por columna */
+    max-width: 50%;
+  }
+}

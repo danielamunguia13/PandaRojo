@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <title>Panda Rojo</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/icon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enlaza el archivo de estilos personalizados -->
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="main.js"></script>
+    <!--FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top"
+      >
+        <!-- Agrega la clase fixed-top aquí -->
+        <div class="container-fluid" style="font-size: 13px">
+          <a
+            class="navbar-brand"
+            href="#"
+            style="color: #8f391e; font-weight: 600"
+          >
+            <img
+              src="imagenes/Red Brown Panda3.png"
+              alt="Logo"
+              width="32"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            RED PANDA
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup"
+            style="font-weight: 550"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#sobre-ellos"
+                >SOBRE</a
+              >
+              <a class="nav-link" href="#caracteristicas">CARACTERISTICAS</a>
+              <a class="nav-link" href="#datos">DATOS</a>
+              <a class="nav-link" href="#protegelos">PROTEGELOS</a>
+              <a class="nav-link" href="#galeria">GALERIA</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid" style="padding-top: 70px">
+        <!-- Ajusta el espacio superior para evitar superposición -->
+        <!--Animación con JavaScript-->
+        <h1 class="text-primary mb-4" id="typewriter"></h1>
+      </div>
+      <section>
+        <div id="carouselPandas" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active carousel-item-start">
+              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="100%" height="500" src="imagenes/PANDA ROJO.jpg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #5a6165;"></rect><text x="50%" y="50%" fill="#555" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #b2aca2;">
+             </div>
+            <div class="carousel-item carousel-item-next carousel-item-start">
+              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="100%" height="500" src="imagenes/PANDAROJO4.jpeg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #a8a095;"></rect><text x="50%" y="50%" fill="#444" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #bdb7af;">
+            </div>
+            <div class="carousel-item">
+              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="100%" height="500" src="imagenes/PANDAROJO5.jpg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #b2aca2;"></rect><text x="50%" y="50%" fill="#333" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #c8c3bc;">
+            </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselPandas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselPandas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+        </div>
+    </section>
+
+      <!-- Contenido de la sección "Sobre Ellos" -->
+
+      <section id="sobre-ellos">
+        <div class="container-md" style="padding-top: 40px">
+          <h2>SOBRE EL PANDA ROJO</h2>
+          <h4>
+            El panda rojo es una criatura solitaria que se encuentran en las
+            montañas de Nepal, Myanmar y China central.
+          </h4>
+          <h6>
+            El panda rojo es eclipsado por el gigante blanco y negro con el que
+            comparte nombre. Suele ser del tamaño del gato doméstico, aunque su
+            cola grande y espesa añade 46 centímetros a su cuerpo.<br />
+            Utiliza su anillada cola como manta para arroparse en las
+            fríascumbres de las montañas, a cubrirse para dormir y a tener
+            equilibrio para agarrarse bien en las ramas de los árboles.
+          </h6>
+          Este animal pasa la mayor parte del tiempo en los árboles, donde
+          incluso duerme.
+          <br />
+          <h6>
+            El panda rojo ha dado muchos dolores de cabeza a los científicos a
+            la hora de clasificarlos, se le ha considerado pariente del oso
+            panda pero también del mapache, con quien comparte su cola anillada.
+            En la actualidad, se les ha clasificado como miembros de su propia
+            familia (Ailuridae). El panda rojo está amenazado, víctima de la
+            deforestación.
+          </h6>
+        </div>
+      </section>
+
+      <br />
+
+      <section id="caracteristicas">
+        <div class="container-md" style="padding-top: 55px">
+          <h2>CARACTERISTICAS</h2>
+
+          <ul>
+            <li style="font-size: 20px">Diversidad y las subespecies</li>
+            El panda rojo se divide en dos subespecies: el panda rojo occidental
+            y los mayores pandas rojos styans que viven en la parte oriental. El
+            panda rojo occidental tiene un pelaje claro en la cara, mientras que
+            los pandas rojos styans tienen algunas marcas de facción más
+            marcadas.
+            <br />
+            <br />
+            <li style="font-size: 20px">¿Dónde vive el Panda Rojo?</li>
+            Este animal vive en lugares montañosos donde las temperaturas no
+            superan los 25°C. Exactamente en las montañas de Nepal y del norte
+            de Birmania, así como en las regiones centrales de China. Su lugar
+            favorito son los árboles, viven prácticamente todo el tiempo subidos
+            en ellos y bajan solo si es realmente necesario.
+            <br />
+            <br />
+            <li style="font-size: 20px">¿Qué comen?</li>
+            Son animales omnívoros y uno de sus alimentos principales es el
+            bambú, lo mismo que los osos pandas, aunque recordamos que no tienen
+            ninguna relación. También comen frutas, bellotas, raíces, huevos,
+            flores, insectos y, en épocas que pueden necesitar aporte extra de
+            proteína, algún pajaro y pequeños mamíferos.
+            <br />
+          </ul>
+        </div>
+      </section>
+
+      <section id="datos">
+        <div class="container-md" style="padding-top: 60px">
+          <h2>CURIOSIDADES</h2>
+
+          <h4>Día del panda rojo:¿Cuándo y por qué se celebra?</h4>
+
+          <p>
+            El Día Internacional del Panda Rojo se conmemora el tercer sábado de
+            septiembre de cada año.
+            <br />En 2023, la fecha para celebrar a estos animales coincide con
+            el sábado 16. Fue instaurado en el año 2010, “es importante porque
+            hay que llamar la atención del público sobre los problemas que
+            enfrenta esta especie en la naturaleza”.
+          </p>
+          <h4>Datos del Panda Rojo</h4>
+
+          <ul>
+            <li>
+              Son animales tímidos y solitarios salvo en época de apareamiento.
+            </li>
+            <li>Es amigable y adorable, pero atacará si se ve amenazado.</li>
+            <li>
+              El tercer sábado de septiembre se celebra el Día Internacional del
+              Panda Rojo, <br />
+              con la finalidad de crear conciencia a nivel mundial de la
+              importancia de cuidar y <br />
+              proteger esta especie animal.
+            </li>
+            <li>
+              Cuando se siente amenazado o en peligro y no consigue escapar, se
+              pone de pie sobre <br />
+              sus patas traseras e intimida a los agresores pareciendo más
+              grande.
+            </li>
+            <li>
+              Los machos nunca se interesan por sus crías, son las hembras las
+              que asumen <br />
+              la crianza de sus pequeños durante 90 días.
+            </li>
+            <li>
+              Digiere mejor los troncos de bambú según la estación del año. Es
+              decir, tiene una mayor <br />
+              digestibilidad en verano y otoño, mientras que es menor en
+              primavera e invierno.
+            </li>
+            <li>
+              El panda rojo se ha robado la atención gracias a RED, la película
+              de Disney.
+            </li>
+            <li>
+              Tristemente es una especie que se encuentra en peligro de
+              extinción.
+            </li>
+            <li>
+              Su población ha comenzado a disminuir debido a la destrucción de
+              su hábitat, la eliminación <br />
+              de su territorio en China y la caza furtiva.
+            </li>
+            <li>Su pelaje los protege de los depredadores.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="video">
+        <div class="container-md">
+          <h2>DATOS CURIOSOS</h2>
+          <div class="video-container">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/24UIq3_pNHM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+
+      <section id="protegelos">
+        <div class="container-md" style="padding-top: 60px">
+          <h2>¡PROTEGELOS! - Salvaguardando a los Pandas Rojos</h2>
+          <h3>Desafíos que Enfrentan los Pandas Rojos y una Nueva Esperanza</h3>
+          <p>
+            La emblemática Lista Roja de Especies Amenazadas de la Unión
+            Internacional para la Conservación de la Naturaleza (IUCN)
+            lamentablemente incluye al panda rojo como una especie en peligro de
+            extinción. Su población ha sufrido un devastador declive del 50%
+            durante las últimas tres generaciones, y lamentablemente, las
+            perspectivas de su supervivencia siguen siendo precarias.
+          </p>
+
+          <p>
+            Las amenazas que erosionan la capacidad de reproducción de estos
+            cautivadores pandas son alarmantes y multifacéticas. La pérdida y
+            fragmentación de su hábitat, originadas por actividades humanas
+            irresponsables, así como la caza furtiva, perpetrada por una
+            creciente población de perros domésticos y salvajes, han cobrado un
+            tributo desgarrador en las filas de los pandas rojos.
+          </p>
+
+          <p>
+            Sin embargo, una luz de esperanza brilla en medio de estas sombrías
+            circunstancias. En el Zoológico de San Diego, California, un
+            acontecimiento trascendental ha ocurrido. Una cría de panda roja ha
+            nacido, marcando este evento como el primer nacimiento de su especie
+            en el zoológico desde 2006. Aunque la fecha exacta del alumbramiento
+            aún permanece velada, estimamos que la cría cuenta con
+            aproximadamente un mes de vida. Actualmente, el cachorro, que aún no
+            ha recibido nombre, comparte momentos preciosos junto a su madre en
+            una guarida, donde encuentra descanso y alimento.
+          </p>
+
+          <p>
+            De acuerdo a expertos en el campo, en las próximas 6 o 7 semanas,
+            estos jóvenes seres se tornarán naturalmente más vivaces, comenzando
+            a explorar su entorno con curiosidad. La conmovedora noticia de este
+            nuevo integrante en el zoológico resuena más allá de sus muros,
+            generando sensibilización sobre las urgencias de la conservación de
+            la vida silvestre y sus ecosistemas. En las últimas cinco décadas,
+            la población global de pandas rojos ha menguado en un desolador 40%,
+            catapultando a esta especie hacia el estado de "en peligro" según la
+            IUCN.
+          </p>
+
+          <p>
+            La llegada de esta cría destaca la necesidad imperante de acciones
+            comprometidas y eficaces para resguardar la biodiversidad y los
+            hábitats naturales. Las palabras elocuentes de la Dra. Nadine
+            Lamberski, directora de conservación y salud de la vida silvestre de
+            San Diego Zoo Wildlife Alliance, resuenan con firmeza: esta nueva
+            vida es un recordatorio palpable de nuestra responsabilidad
+            colectiva de proteger la naturaleza para las generaciones venideras.
+          </p>
+        
+          <section id="mapa">
+            <div class="container-sm">
+              <h2 class="text-center">MAPA</h2>
+              <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59184947.30233426!2d-132.97154939822485!3d25.123432365248714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95495497f80c9%3A0x5df0f4372635e247!2sZool%C3%B3gico%20de%20San%20Diego!5e0!3m2!1ses-419!2smx!4v1691706270566!5m2!1ses-419!2smx"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </section>
+          <br />
+        </div>
+        
+        <section id="galeria">
+          <div class="container text-center">
+            <h2>GALERIA</h2>
+            <button id="toggleButton" onclick="toggleContent()">
+              CLICK TO SEE MORE!
+            </button>
+            <div
+              class="row justify-content-center text-center"
+              id="imageContainer"
+            >
+              <div class="col-8">
+                <img
+                  class="img-fluid"
+                  src="imagenes/PANDA ROJO4.jpg"
+                  alt="PANDA"
+                />
+              </div>
+              <div class="col-8">
+                <img
+                  class="img-fluid"
+                  src="imagenes/PANDA ROJO 7.jpg"
+                  alt="PANDA"
+                />
+              </div>
+              <div class="col-8">
+                <img
+                  class="img-fluid"
+                  src="imagenes/PANDAROJO 9.jpg"
+                  alt="PANDA"
+                />
+              </div>
+              <div class="col-8">
+                <img
+                  class="img-fluid"
+                  src="imagenes/PandaROJO10.jpg"
+                  alt="PANDA"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <hr />
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <a
+        href="https://github.com/danielamunguia13"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="derechos-de-autor">
+          Creado por Daniela Munguia (2023) &#169;
+        </div>
+      </a>
+    </footer>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  </body>
+</html>
