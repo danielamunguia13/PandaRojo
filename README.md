@@ -10,8 +10,7 @@ Este proyecto tiene como objetivo crear conciencia sobre la situación de los Pa
 - Carrusel de Imágenes de Pandas Rojos 📸
 - Videos de YouTube sobre Pandas Rojos 🎥
 - Mapa de Ubicación de Pandas 🗺️
-- Formulario de Contacto 📩
-- Donaciones para la Conservación 💰
+- Contacto 📩
 
 ## Tecnologías Utilizadas
 
