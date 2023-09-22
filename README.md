@@ -21,4 +21,4 @@ Este proyecto tiene como objetivo crear conciencia sobre la situación de los Pa
 - Bootstrap
   
 ### Link de la Página 
-[Pandas Rojos!](https://danielamunguiaa.github.io/#galeria)
+!Pandas Rojos!(https://danielamunguiaa.github.io/#galeria)
