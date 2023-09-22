@@ -18,6 +18,7 @@ Este proyecto tiene como objetivo crear conciencia sobre la situación de los Pa
 - HTML5 🌐
 - CSS3 🎨
 - JavaScript 🚀
-- 
+- Bootstrap
+  
 ### Link de la Página 
 ![Pandas Rojos!](https://danielamunguiaa.github.io/#galeria)
